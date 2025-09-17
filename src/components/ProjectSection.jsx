@@ -4,31 +4,31 @@ const projects = [
   {
     id: 1,
     title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    description: "a fully functional AI SaaS Application with Subscriptions billings using the PERN stack.",
+    image: "/projects/QuickAI.png",
+    tags: ["React", "TailwindCSS", "PostgreSQL", "Node.js"],
+    demoUrl: "https://ai-saas-app-fawn-phi.vercel.app",
+    githubUrl: "https://github.com/Khardeni/AI-SaaS-App",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Veterinary Clinic Dashboard",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "Interactive analytics dashboard with inventory management and other features.",
+    image: "/projects/veto.png",
+    tags: ["TypeScript", "MongoDB", "Node.js", "React.js"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Weding Planning Platform",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "One-Stop solution to plan your wedding in Tunisia (MVP).",
+    image: "/projects/wedding.png",
+    tags: ["React", "Node.js", "MongoDB", "tailwindcss"],
+    demoUrl: "https://hayya.onrender.com",
+    githubUrl: "https://gitlab.com/Khardeni/haya_mvp",
   },
 ];
 
@@ -100,7 +100,7 @@ export const ProjectSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Khardeni"
           >
             Check My Github <ArrowRight size={16} />
           </a>
