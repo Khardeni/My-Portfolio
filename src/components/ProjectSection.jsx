@@ -12,19 +12,19 @@ const projects = [
   },
   {
     id: 2,
-    title: "Veterinary Clinic Dashboard",
+    title: "CRM PDS Dashboard",
     description:
       "Interactive analytics dashboard with inventory management and other features.",
-    image: "/projects/veto.png",
+    image: "/projects/PDS.png",
     tags: ["TypeScript", "MongoDB", "Node.js", "React.js"],
-    demoUrl: "#",
+    demoUrl: "http://192.168.56.1:3001/",
     githubUrl: "#",
   },
   {
     id: 3,
     title: "Weding Planning Platform",
     description:
-      "One-Stop solution to plan your wedding in Tunisia (MVP).",
+      "One-Stop solution to plan your wedding in Tunisia (MVP). first experience with the MERN stack,",
     image: "/projects/wedding.png",
     tags: ["React", "Node.js", "MongoDB", "tailwindcss"],
     demoUrl: "https://hayya.onrender.com",
