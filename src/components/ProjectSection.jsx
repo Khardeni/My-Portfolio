@@ -22,13 +22,23 @@ const projects = [
   },
   {
     id: 3,
-    title: "Weding Planning Platform",
+    title: "Agriculture landing page",
     description:
-      "One-Stop solution to plan your wedding in Tunisia (MVP). first experience with the MERN stack,",
-    image: "/projects/wedding.png",
+      "A landing page for an agriculture company, showcasing their products and services.",
+    image: "/projects/benayed.png",
+    tags: ["React", "Node.js", "axios", "tailwindcss"],
+    demoUrl: "https://benayedos.tn",
+    githubUrl: "https://github.com/Khardeni/Benayados",
+  },
+  {
+    id: 4,
+    title: "Travel Booking Platform",
+    description:
+      "A travel booking platform that allows users to search and book flights, hotels, and rental cars with ease.",
+    image: "/projects/ansuf.png",
     tags: ["React", "Node.js", "MongoDB", "tailwindcss"],
-    demoUrl: "https://hayya.onrender.com",
-    githubUrl: "https://gitlab.com/Khardeni/haya_mvp",
+    demoUrl: "https://ansuf.tn",
+    githubUrl: "https://github.com/Khardeni/Ansuf",
   },
 ];
 
