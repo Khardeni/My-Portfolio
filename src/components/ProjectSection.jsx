@@ -17,7 +17,7 @@ const projects = [
       "Interactive analytics dashboard with inventory management and other features.",
     image: "/projects/PDS.png",
     tags: ["TypeScript", "MongoDB", "Node.js", "React.js"],
-    demoUrl: "http://192.168.56.1:3001/",
+    demoUrl: "",
     githubUrl: "#",
   },
   {
